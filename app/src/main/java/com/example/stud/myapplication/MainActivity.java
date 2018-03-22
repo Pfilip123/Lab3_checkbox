@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 RadioButton.radio = (RadioButton) view;
-                  Toast.makeText(  MainActivity.this, text: "Kliknięto przycisk" , radio.getText(), Toast.LENGTH_SHORT).show();
+                  Toast.makeText(  MainActivity.this, text: "przycisk Kliknięto" , radio.getText(), Toast.LENGTH_SHORT).show();
                   if (view.getId() == R.id.rbOpcja1){}
                   else if (view.getId() == R.id.rbOpcja2){};
 
